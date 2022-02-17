@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>E-Stitchery</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="format-detection" content="telephone-no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&family=Lato:wght@300&family=Lustria&family=Montserrat:ital,wght@0,700;1,600&family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  </head>
+
+  <link rel="apple-touch-icon" sizes="256x256" href="https://img.icons8.com/external-justicon-lineal-justicon/64/4a90e2/external-needle-sewing-justicon-lineal-justicon.png">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/external-justicon-lineal-justicon/64/4a90e2/external-needle-sewing-justicon-lineal-justicon.png" sizes="256x256">
+
+  <body>
+    <img src="./whatsapp-logo-png-2280.png" alt="" />
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a href="./index.html" class="header__logo">
+            <img src="./E-stivhery (1).png" alt="" />
+          </a>
+          <div class="header__menu menu">
+            <div class="menu__icon">
+              <span></span>
+            </div>
+            <nav data-sub_menu_auto_close="true" class="menu__body">
+              <ul class="menu__list">
+                <li>
+                  <a data-goto=".page__section_1" href="./index.html" class="menu__link"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a data-goto=".page__section_2" href="./about.html" class="menu__link"
+                    >About Us</a
+                  >
+                </li>
+                <li id="drop">
+                  <a data-goto=".page__section_3" href="#" class="menu__link"
+                    >Our Products</a
+                  >
+
+                  <div class="dropdownBackground">
+                    <span class="arrow"></span>
+                    <ul class="dropdown dropdown3">
+                      <li>
+                        <a class="button" href="">Blouse</a>
+                      </li>
+                      <li>
+                        <a class="button" href="">Gown</a>
+                      </li>
+                      <li><a class="button" href="">Kurti</a></li>
+                      <li>
+                        <a class="button" href="">Bottom Suits</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-goto=".page__section_3" href="#" class="menu__link"
+                    >How it works</a
+                  >
+                </li>
+                <li>
+                  <a data-goto=".page__section_3" href="./contact.html" class="menu__link"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__btn">
+            <div>
+              <img src="https://img.icons8.com/ios/50/000000/user--v1.png" />
+              <img
+                src="https://img.icons8.com/external-icongeek26-outline-icongeek26/64/000000/external-cart-user-interface-icongeek26-outline-icongeek26.png"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="crousel-section">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img
+                src="https://images.unsplash.com/photo-1625479144604-ae69462778b7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8bmVlZGxlLHRocmVhZHx8fHx8fDE2NDUwNDA5NjI&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="https://images.unsplash.com/photo-1635656797814-2493a866105f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29ubmVjdGVkLG5lZWRsZXx8fHx8fDE2NDUwNDA3NjQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="https://images.unsplash.com/photo-1624855538737-e49987b57f55?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2xvdGgsdGFpbG9yfHx8fHx8MTY0NTA0MDYzMg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="what-we-do-section">
+        <div class="section-title"><h1>What we do ?</h1></div>
+
+        <div class="section-content">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/4a90e2/external-dress-mother-day-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"
+              />
+            </div>
+            <div class="card-content">
+              <h4>Get your Fabric Stitched</h4>
+              <p>
+                That beautiful georgette, velvet or silk fabric you bought on
+                your recent shopping spree, we can make the perfect outfit for
+                you.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/4a90e2/external-wardrobe-furniture-kiranshastry-solid-kiranshastry.png"
+              />
+            </div>
+            <div class="card-content">
+              <h4>Revamp Your Wardrobe</h4>
+              <p>
+                Want to create something out of your old sarees that are lying
+                unused in your wardrobe? We can turn those into even more
+                beautiful dresses for you.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://img.icons8.com/ios/50/4a90e2/womens-pajama.png"
+              />
+            </div>
+            <div class="card-content">
+              <h4>Recreate the Same Outfit for You</h4>
+              <p>
+                Want an outfit that you saw on the internet or your friend wore?
+                Well, we can stitch the exact thing for you and customize it to
+                your fit, patterns & colour preferences.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/4a90e2/external-fashion-supermarket-wanicon-lineal-wanicon.png"
+              />
+            </div>
+            <div class="card-content">
+              <h4>Design a New Look</h4>
+              <p>
+                Confused about what to wear for the next big event? Connect with
+                our designers & watch them create something magical by just
+                sitting in the comforts of your home.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-section">
+        <h1>Choose the Product you would like to stitch</h1>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="swiper-card">
+                <img
+                  src="https://www.esilai.com/image/cache/catalog/16-07-2018/gown-stitching-265x364.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="swiper-card hideme">
+                <img
+                  src="https://www.esilai.com/image/cache/catalog/16-07-2018/gown-stitching-265x364.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="swiper-card hideme">
+                <img
+                  src="https://www.esilai.com/image/cache/catalog/16-07-2018/gown-stitching-265x364.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-card">
+                <img
+                  src="https://www.esilai.com/image/cache/catalog/16-07-2018/gown-stitching-265x364.jpg"
+                  alt=""
+                />
+                <a href="#"> Gown Stitching </a>
+              </div>
+
+              <div class="swiper-card hideme">
+                <img
+                  src="https://www.esilai.com/image/cache/catalog/16-07-2018/gown-stitching-265x364.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="swiper-card hideme">
+                <img
+                  src="https://www.esilai.com/image/cache/catalog/16-07-2018/gown-stitching-265x364.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            ]
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+
+      <div class="product-section">
+        <h1>Our Product</h1>
+        <section class="category__section section" id="category">
+          <div class="tab__list">
+            <div class="title__container tabs">
+              <div class="section__titles category__titles">
+                <div class="section__title filter-btn" data-id="All">
+                  <span class="dot"></span>
+                  <h1 class="primary__title">All</h1>
+                </div>
+              </div>
+              <div class="section__titles category__titles">
+                <div class="section__title filter-btn" data-id="Blouse">
+                  <span class="dot"></span>
+                  <h1 class="primary__title">Blouse</h1>
+                </div>
+              </div>
+              <div class="section__titles">
+                <div class="section__title filter-btn" data-id="Gown">
+                  <span class="dot"></span>
+                  <h1 class="primary__title">Gown</h1>
+                </div>
+              </div>
+
+              <div class="section__titles">
+                <div class="section__title filter-btn" data-id="Kurti">
+                  <span class="dot"></span>
+                  <h1 class="primary__title">Kurti</h1>
+                </div>
+              </div>
+
+              <div class="section__titles">
+                <div class="section__title filter-btn" data-id="Bottoms">
+                  <span class="dot"></span>
+                  <h1 class="primary__title">Bottoms</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="Product_Container"></div>
+        <div class="viewmore">
+          <h4>
+            View more
+            <img
+              src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/32/000000/external-right-arrow-user-interface-kmg-design-basic-outline-kmg-design.png"
+            />
+          </h4>
+        </div>
+      </div>
+
+      <footer>
+
+        <div class="container*fluid py-5" style="padding-left: 40px;">
+            <div class="row">
+                <div class="col-lg-3 mb-3 logo-pad">
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="./index.html"
+                        aria-label="Bootstrap">
+                        <img src="./E-stivhery (1).png" alt="">
+
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                            fill="currentColor"></path>
+                        </svg>
+                        
+                    </a>
+
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>Cloth Category</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="/">Gowns</a></li>
+                        <li class="mb-2"><a href="">Kurtis</a></li>
+                        <li class="mb-2"><a href="/">Bottoms</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>About Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="./about.html">About </a></li>
+                        <li class="mb-2"><a href="/">Colloborations</a></li>
+                        <li class="mb-2"><a href="/">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>We're here to help</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="/">Your Account</a></li>
+                        <li class="mb-2"><a href="./contact.html">Contact Us</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5 style="padding-left: 10px;">Follow Us</h5>
+                    <ul class="list-unstyled text-small">
+
+
+                        <a style="font-size: 30px;padding: 10px;" href=""><i class="fa fa-facebook-square"></i></a>
+                        <a style="font-size: 30px;padding: 10px;" href=""><i class="fa fa-linkedin"></i></a>
+                        <a style="font-size: 30px;padding: 10px;" href=""><i class="fa fa-twitter-square"></i></a>
+                        <a style="font-size: 30px;padding: 10px;" href=""><i class="fa fa-instagram"></i></a>
+
+                    </ul>
+                </div>
+            </div>
+
+    </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/product.js"></script>
+  </body>
+</html>

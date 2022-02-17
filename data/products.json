@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "title": "Designer Blouse",
+      "image": "https://www.esilai.com/image/cache/data/esilai/sweetheart-tube-280x280.jpg",
+      "hrefPath": "",
+      "category": "Blouse"
+    },
+    {
+      "id": 1,
+      "title": "Basic Blouse",
+      "image": "https://www.esilai.com/image/cache/data/esilai/round-neck-front-280x280.jpg",
+      "hrefPath": "",
+      "category": "Blouse"
+    },
+    {
+      "id": 0,
+      "title": "Aline Gown",
+      "image": "https://www.esilai.com/image/cache/data/stitching/aline-gown-280x280.jpg",
+      "hrefPath": "",
+      "category": "Gown"
+    },
+    {
+      "id": 0,
+      "title": "Ball Gown",
+      "image": "https://www.esilai.com/image/cache/data/stitching/ball-gown-280x280.jpg",
+      "hrefPath": "",
+      "category": "Gown"
+    },
+    {
+      "id": 0,
+      "title": "Bodycon",
+      "image": "https://www.esilai.com/image/cache/data/stitching/bodycon-280x280.jpg",
+      "hrefPath": "",
+      "category": "Gown"
+    },
+
+    {
+      "id": 0,
+      "title": "A line from bust",
+      "image": "https://www.esilai.com/image/cache/data/esilai/a-line-from-bust-280x280.jpg",
+      "hrefPath": "",
+      "category": "Kurti"
+    },
+    {
+      "id": 0,
+      "title": "Aline from waist",
+      "image": "https://www.esilai.com/image/cache/data/esilai/a-line-from-waist-280x280.jpg",
+      "hrefPath": "",
+      "category": "Kurti"
+    },
+    {
+      "id": 0,
+      "title": "Anarkali Flare",
+      "image": "https://www.esilai.com/image/cache/data/esilai/anarkali-flare-280x280.jpg",
+      "hrefPath": "",
+      "category": "Kurti"
+    },
+    {
+      "id": 0,
+      "title": "Dhoti 1",
+      "image": "https://www.esilai.com/image/cache/data/stitching/dhoti-1-280x280.jpg",
+      "hrefPath": "",
+      "category": "Bottoms"
+    },
+    {
+      "id": 0,
+      "title": "Dhoti 2",
+      "image": "https://www.esilai.com/image/cache/data/stitching/dhoti-2-280x280.jpg",
+      "hrefPath": "",
+      "category": "Bottoms"
+    },
+    {
+      "id": 0,
+      "title": "Dhoti 3",
+      "image": "https://www.esilai.com/image/cache/data/stitching/dhoti-3-280x280.jpg",
+      "hrefPath": "",
+      "category": "Bottoms"
+    }
+  ]
+}
